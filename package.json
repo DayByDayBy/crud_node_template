@@ -1,0 +1,14 @@
+{
+    "name": "crud_template",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+      "dev:frontend": "cd frontend && npx http-server",
+      "dev:backend": "cd backend && node index.js"
+    },
+    "dependencies": {
+      "concurrently": "^7.0.0",
+      "http-server": "^14.0.0"
+    }
+  }
+  

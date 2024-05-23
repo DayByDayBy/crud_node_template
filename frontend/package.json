@@ -1,0 +1,14 @@
+{
+    "name": "frontend",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {},
+    "scripts": {
+      "start": "http-server",
+      "build": "echo 'No build process configured for frontend'"
+    },
+    "devDependencies": {
+      "http-server": "^14.0.0"
+    }
+  }
+  
